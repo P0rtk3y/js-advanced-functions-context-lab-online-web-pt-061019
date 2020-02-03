@@ -15,7 +15,7 @@ function createEmployeeRecords(employeeArrs){
   return employeeArrs.map(employee => createEmployeeRecord(employee));
 }
 
-function createTimeInEvent(employee, timeStamp){
+function createTimeInEvent(timeStamp){
   let [date, time] = timeStamp.split(" ");
   
   this.timeInEvents.push({
