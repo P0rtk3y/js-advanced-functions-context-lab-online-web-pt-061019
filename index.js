@@ -3,6 +3,8 @@
 function createEmployeeRecord(employee){
   return {
     firstName: employee[0],
+    familyName: employee[1],
+    title: employee[2],
     
   }
 }
