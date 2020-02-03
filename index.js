@@ -15,6 +15,7 @@ function createEmployeeRecords(employeeArrs){
   return employeeArrs.map(employee => createEmployeeRecord(employee));
 }
 
+function createTimeInEvent
 
 
 /*
