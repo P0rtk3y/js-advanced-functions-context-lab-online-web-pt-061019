@@ -21,6 +21,7 @@ function createTimeInEvent(employee, timeStamp){
   this.timeInEvents.push({
     type: "TimeIn",
     hour: parseInt(time, 10),
+    date: date
     
   })
 }
