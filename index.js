@@ -53,7 +53,9 @@ function calculatePayroll(employeeArrs){
   return totalPayroll;
 }
 
-
+function findEmployeeByFirstName(srcArr, firstName){
+  
+}
 
 /*
  We're giving you this function. Take a look at it, you might see some usage
