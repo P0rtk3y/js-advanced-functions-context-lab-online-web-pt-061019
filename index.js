@@ -38,7 +38,8 @@ function createTimeOutEvent(timeStamp){
 }
 
 function hoursWorkedOnDate(day){
-  
+  let inTime = 
+  let outTime = 
 }
 
 /*
