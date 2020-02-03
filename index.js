@@ -2,7 +2,8 @@
 
 function createEmployeeRecord(employee){
   return {
-    firstName: 
+    firstName: employee[0],
+    
   }
 }
 
