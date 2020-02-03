@@ -1,7 +1,7 @@
 /* Your Code Here */
 
 function createEmployeeRecord(employee){
-  
+  return 
 }
 
 
