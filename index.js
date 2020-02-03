@@ -22,7 +22,6 @@ function createTimeInEvent(employee, timeStamp){
     type: "TimeIn",
     hour: parseInt(time, 10),
     date: date
-    
   })
 }
 
