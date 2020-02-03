@@ -47,7 +47,7 @@ function wagesEarnedOnDate(date){
   return hoursWorkedOnDate.call(this, date) * this.payPerHour;
 }
 
-function payrollExpense(employeeArrs){
+function calculatePayroll(employeeArrs){
   let totalPayroll = employeeArrs.reduce((sum, employee) => sum + allWagesFor.call(employee), 0);
   
   return totalPayroll;
