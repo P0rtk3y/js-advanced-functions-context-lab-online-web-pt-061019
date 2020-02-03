@@ -37,8 +37,8 @@ function createTimeOutEvent(timeStamp){
   return this;
 }
 
-function hoursWorkedOnDate(day){
-  let inTime = this.timeInEvents.find(el => )
+function hoursWorkedOnDate(date){
+  let inTime = this.timeInEvents.find(el => el.date === date);
   let outTime = 
 }
 
