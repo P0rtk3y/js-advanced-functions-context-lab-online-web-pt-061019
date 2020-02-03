@@ -37,7 +37,7 @@ function createTimeOutEvent(timeStamp){
   return this;
 }
 
-
+function hoursWorkedOnDate
 
 /*
  We're giving you this function. Take a look at it, you might see some usage
