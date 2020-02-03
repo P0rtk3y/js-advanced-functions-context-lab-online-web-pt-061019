@@ -48,7 +48,7 @@ function wagesEarnedOnDate(date){
 }
 
 function payrollExpense(employeeArrs){
-  
+  let totalPayroll = 
 }
 
 /*
