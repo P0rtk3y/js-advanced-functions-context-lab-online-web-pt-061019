@@ -20,7 +20,7 @@ function createTimeInEvent(employee, timeStamp){
   
   this.timeInEvents.push({
     type: "TimeIn",
-    hour: this.
+    hour: parseInt(time, 10),
     
   })
 }
