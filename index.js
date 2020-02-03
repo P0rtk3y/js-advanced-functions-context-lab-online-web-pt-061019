@@ -26,6 +26,17 @@ function createTimeInEvent(timeStamp){
   return this;
 }
 
+function createTimeInEvent(timeStamp){
+  let [date, time] = timeStamp.split(" ");
+  
+  this.timeInEvents.push({
+    type: "TimeIn",
+    hour: parseInt(time, 10),
+    date: date
+  })
+  return this;
+}
+
 
 /*
  We're giving you this function. Take a look at it, you might see some usage
