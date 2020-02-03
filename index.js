@@ -1,6 +1,8 @@
 /* Your Code Here */
 
-
+function createEmployeeRecord(employee){
+  
+}
 
 
 
