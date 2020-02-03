@@ -23,6 +23,7 @@ function createTimeInEvent(employee, timeStamp){
     hour: parseInt(time, 10),
     date: date
   })
+  return this;
 }
 
 
