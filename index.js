@@ -47,7 +47,9 @@ function wagesEarnedOnDate(date){
   return hoursWorkedOnDate.call(this, date) * this.payPerHour;
 }
 
-function payrollExpense
+function payrollExpense(employeeArrs){
+  
+}
 
 /*
  We're giving you this function. Take a look at it, you might see some usage
