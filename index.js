@@ -19,7 +19,8 @@ function createTimeInEvent(employee, timeStamp){
   let [date, time] = timeStamp.split(" ");
   
   this.timeInEvents.push({
-    type: 
+    type: "TimeIn",
+    hour: this.
     
   })
 }
